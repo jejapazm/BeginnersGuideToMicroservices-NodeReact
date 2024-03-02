@@ -15,6 +15,11 @@ npm install nodemon --save-dev
 npm init -y
 npm install express axios cors
 npm install nodemon --save-dev
+
+# event-bus/
+npm init -y
+npm install express axios cors
+npm install nodemon --save-dev
 ```
 
 ## Section 2: Tables of services
