@@ -8,6 +8,10 @@ npm init -y
 npm install express axios cors
 npm install nodemon --save-dev
 
+# comments/
+npm init -y
+npm install express axios cors
+npm install nodemon --save-dev
 ```
 
 ## Section 2: Tables of services
@@ -31,5 +35,30 @@ npm install nodemon --save-dev
     "id": "1d3c8513",
     "title": "post 2"
   }
+}
+```
+
+### Endpoints in Comments microservice
+
+| Route               | Method | Body?               | Description                              |
+| ------------------- | ------ | ------------------- | ---------------------------------------- |
+| /posts/:id/comments | GET    | -                   | List all comments associated with a post |
+| /posts/:id/comments | POST   | { content: string } | Create a comment associated with a post  |
+
+#### Comments by Post id structure example
+
+```json
+{
+  "65359f6b": [
+    {
+      "id": "65359f6b",
+      "content": "Example comment"
+    },
+    {
+      "id": "1d3c8513",
+      "content": "Example comment"
+    }
+  ],
+  "2403faf1": []
 }
 ```

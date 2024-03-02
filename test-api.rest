@@ -14,3 +14,20 @@ Content-Type: application/json
 {
   "title": "Titulo de ejemplo"
 }
+
+
+# Test GET /posts/:id/comments
+# description: Get all comments associated to a post
+
+GET http://localhost:4001/posts/1/comments
+
+
+# Test POST /posts/:id/comments
+# description: Create a new comment associated to a post
+
+POST http://localhost:4001/posts/1/comments
+Content-Type: application/json
+
+{
+  "content": "Comentario de ejemplo"
+}
