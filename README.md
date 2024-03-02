@@ -3,6 +3,9 @@
 ## Section 1: How this project was created
 
 ```bash
+# client/
+npx create-react-app .
+
 # posts/
 npm init -y
 npm install express axios cors
