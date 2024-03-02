@@ -20,6 +20,11 @@ npm install nodemon --save-dev
 npm init -y
 npm install express axios cors
 npm install nodemon --save-dev
+
+# query service/
+npm init -y
+npm install express cors
+npm install nodemon --save-dev
 ```
 
 ## Section 2: Tables of services

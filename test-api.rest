@@ -31,3 +31,8 @@ Content-Type: application/json
 {
   "content": "Comentario de ejemplo"
 }
+
+
+# Test GET /posts
+# description: Get all posts with comments
+GET http://localhost:4002/posts

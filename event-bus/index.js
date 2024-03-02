@@ -13,7 +13,7 @@ app.post('/events', async (req, res) => {
 
   axios.post('http://localhost:4000/events', event); // posts
   axios.post('http://localhost:4001/events', event); // comments
-  // axios.post('http://localhost:4002/events', event); // query
+  axios.post('http://localhost:4002/events', event); // query
 
   res.send({ status: 'OK' }); // send back a response to the sender
 
